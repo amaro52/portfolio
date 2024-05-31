@@ -1,23 +1,29 @@
-// import { useState } from "react";
-// import reactLogo from "./assets/react.svg";
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Link } from "react-router-dom";
+import AboutMe from "./AboutMe";
+import HomePage from "./HomePage";
+import NavBar from "./NavBar";
 
-import "./App.css";
-import { BrowserRouter, Route } from "react-router-dom";
+const App = () => {
+  let component; //: (() => JSX.Element) | undefined;
+  switch (window.location.pathname) {
+    case "/":
+      component = <HomePage />;
+      break;
+    case "/AboutMe":
+      component = <AboutMe />;
+      break;
+    default:
+      break;
+  }
 
-function App() {
   return (
-    <main>
-      <h2 className="btn btn-circle bg-sky-300">Hello</h2>
-
-      <a href="/AboutMe">
-        <button>About Me</button>
-      </a>
-      <a href="/AboutMe">
-        {" "}
-        <p>about me 2</p>
-      </a>
-    </main>
+    <>
+      <NavBar />
+      {component}
+    </>
   );
-}
+};
 
 export default App;
