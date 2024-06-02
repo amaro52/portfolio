@@ -44,3 +44,10 @@ body {
 .nav li.hover {
   background-color: brown;
 }
+
+.about-me {
+  padding: 2rem;
+  margin: 0;
+  /* display: flex; */
+  gap: 1rem;
+}
