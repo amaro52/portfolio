@@ -19,8 +19,6 @@ const App = () => {
   return (
     <>
       <NavBar />
-      <h1 className="text-red-500">Hello, Tailwind CSS with Vite!</h1>
-
       {/* Pages */}
       <div className="container">
         <Routes>
