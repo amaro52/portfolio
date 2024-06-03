@@ -1,10 +1,11 @@
-import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const HomePage = () => {
   return (
     <div>
-      <h1>My Projects</h1>
+      <p className="text-sky-500">My Projects</p>
+      {/* <ul></ul> */}
+      <button className="btn">Button</button>
     </div>
   );
 };
