@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import spotify from "./images/spotify-logo-black.png";
 
 const HomePage = () => {
   return (
@@ -12,14 +13,11 @@ const HomePage = () => {
       <div>
         <div className="card card-compact w-96 bg-base-100 shadow-xl inline-block p-4">
           <figure>
-            <img
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-              alt="Shoes"
-            />
+            <img src={spotify} alt="Spotify Logo Black" />
           </figure>
           <div className="card-body">
             <h2 className="card-title">Custom Shuffle</h2>
-            <p>Description</p>
+            <p>Create subplaylists from your playlists</p>
             <div className="card-actions justify-end">
               <button className="btn btn-primary">
                 <Link
@@ -36,7 +34,7 @@ const HomePage = () => {
           <figure>
             <img
               src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-              alt="Shoes"
+              alt="PeddyBike Image"
             />
           </figure>
           <div className="card-body">
