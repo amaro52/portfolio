@@ -34,6 +34,28 @@ const HomePage = () => {
           <figure>
             <img
               src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+              alt="Brutus Logo"
+            />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">Brutus Lock</h2>
+            <p>Description</p>
+            <div className="card-actions justify-end">
+              <button className="btn btn-primary">
+                <Link
+                  to="https://github.com/amaro52/brutus-lock"
+                  target="_blank"
+                >
+                  GitHub Repo
+                </Link>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div className="card card-compact w-96 bg-base-100 shadow-xl inline-block p-4">
+          <figure>
+            <img
+              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
               alt="PeddyBike Image"
             />
           </figure>
