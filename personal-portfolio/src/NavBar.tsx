@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <nav className="nav font-serif bg-primary">
+    <nav className="nav font-serif bg-secondary">
       <Link to="/" className="site-title">
         Home
       </Link>
