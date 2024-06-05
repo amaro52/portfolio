@@ -20,7 +20,7 @@ const HomePage = () => {
             <img src={spotifyLogo} alt="Spotify Logo Black" />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Custom Shuffle</h2>
+            <h2 className="card-title">Spotify Custom Shuffle</h2>
             <p>
               Create subplaylists from your playlists <p></p>
             </p>
@@ -34,9 +34,15 @@ const HomePage = () => {
               </button>
               <dialog id="my_modal_2" className="modal">
                 <div className="modal-box text-neutral">
-                  <h3 className="font-bold text-lg ">Hello!</h3>
+                  <h3 className="font-bold text-lg ">Spotify Custom Shuffle</h3>
                   <p className="py-4">
-                    Press ESC key or click outside to close
+                    A partner and I created a full-stack Spotify web application
+                    in which the user can create sub-playlists or shuffles from
+                    their existing playlists based on specific filters the user
+                    inputs based on their preferences. We engineered the
+                    back-end of accessing a user’s playlists and information
+                    using TypeScript, Node.js, and Spotify’s API, and
+                    streamlined a user-friendly front-end using HTML/CSS.
                   </p>
                 </div>
                 <form method="dialog" className="modal-backdrop">
@@ -64,7 +70,7 @@ const HomePage = () => {
           </figure>
           <div className="card-body">
             <h2 className="card-title">Brutus Lock</h2>
-            <p>Description</p>
+            <p>Security in Motion</p>
             <div className="card-actions justify-end">
               {/* Description Button */}
               <button
