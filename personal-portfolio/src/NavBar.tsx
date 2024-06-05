@@ -8,7 +8,7 @@ const NavBar = () => {
       </Link>
       <ul>
         <li>
-          <button className="btn btn-neutral">
+          <button className="btn btn-neutral hover:bg-primary">
             <Link to="/AboutMe">About Me</Link>
           </button>
         </li>

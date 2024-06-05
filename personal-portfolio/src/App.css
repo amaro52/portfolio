@@ -25,24 +25,24 @@ body {
 }
 
 .nav ul {
-  padding: 2rem;
+  padding: 1.5rem;
   margin: 0;
   list-style: none;
   display: flex;
   gap: 1rem;
 }
 
-/* .nav a {
+.nav a {
   color: inherit;
   text-decoration: none;
 }
 
-.nav li.active {
+/* .nav li.active {
   background-color: burlywood;
 }
 
 .nav li.hover {
-  background-color: brown;
+  background-color: red;
 } */
 
 .about-me {
@@ -50,13 +50,4 @@ body {
   margin: 0;
   /* display: flex; */
   gap: 1rem;
-}
-
-/* .my-projects-title {
-  text-emphasis-color: ;
-} */
-
-[data-theme="retro"] .btn {
-  border-width: 2px;
-  border-color: black;
 }
