@@ -37,17 +37,18 @@ body {
   text-decoration: none;
 }
 
-/* .nav li.active {
-  background-color: burlywood;
-}
-
-.nav li.hover {
-  background-color: red;
-} */
-
 .about-me {
   padding: 2rem;
   margin: 0;
-  /* display: flex; */
+  display: flex;
   gap: 1rem;
+  justify-items: center;
+}
+
+.about-me-links {
+  display: flex;
+}
+
+#github-link {
+  margin-top: 2pt;
 }

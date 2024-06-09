@@ -10,9 +10,7 @@ const NavBar = () => {
       <ul>
         <li>
           <Link to="/AboutMe">
-            <button className="btn btn-neutral hover:bg-primary">
-              About Me
-            </button>
+            <button className="btn btn-neutral">About Me</button>
           </Link>
         </li>
       </ul>
