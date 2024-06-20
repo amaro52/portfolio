@@ -1,7 +1,9 @@
 // import { Link } from "react-router-dom";
-import spotifyLogo from "./images/spotify-logo-black.png";
-import brutusLogo from "./images/brutus-lock-logo.png";
 import pedicabs from "./images/pedicabs.avif";
+import brutusLogo from "./images/brutus-lock-logo.png";
+import spotifyLogo from "./images/spotify-logo-black.png";
+import drumKit from "./images/drum-kit.jpeg";
+import simonGame from "./images/simon-game.jpeg";
 import ProjectCard from "./ProjectCard";
 
 const HomePage = () => {
@@ -11,7 +13,29 @@ const HomePage = () => {
       <p className="text-4xl font-semibold pt-1 pb-5">My Projects</p>
 
       {/* cards */}
-      <div className="grid grid-cols-3 gap-3">
+      <div className="grid grid-cols-3 gap-4 py-4">
+        {/* SIMON GAME */}
+        <ProjectCard
+          image={simonGame}
+          imageAlt="Simon Game"
+          title="Simon Game"
+          subtitle="A game that challenges you to remember the pattern"
+          modalName="SimonModal"
+          modalDescription="..."
+          githubLink="https://github.com/amaro52/simon-game"
+        />
+
+        {/* DRUM KIT */}
+        <ProjectCard
+          image={drumKit}
+          imageAlt="Drum Kit"
+          title="Keyboard Drum Kit"
+          subtitle="Play the drums with your keyboard"
+          modalName="drumKitModal"
+          modalDescription="..."
+          githubLink="https://github.com/amaro52/drum-kit"
+        />
+
         {/* CUSTOM SHUFFLE */}
         <ProjectCard
           image={spotifyLogo}
@@ -47,7 +71,23 @@ const HomePage = () => {
           title="Chariot."
           subtitle="Ride-hauling service for pedicabs"
           modalName="ChariotModal"
-          modalDescription="..."
+          modalDescription=<p>
+            <h2 className="font-bold ">Inspiration</h2>
+            Around Austin, there are an abundance of high density events, from
+            music festivals to Texas football games. One of the most common ways
+            to get around is using the pedicabs. We were inspired and created
+            the idea of creating an Uber-like product for pedicabs catered
+            toward large, high-density events. Anyone with a pedicab can join
+            our app as a driver, and riders can sign up as passengers and can
+            see all the pedicab drivers in the area.
+            <br />
+            <h2 className="font-bold pt-3">Tools</h2>
+            We used tools such as TypeScript, Next.js, Cloud Firebase, Stripe’s
+            checkout session API for payments, and Google Maps’ Places API for
+            navigation to power the back-end. For the front-end, we used
+            React.js and HTML/CSS to develop a user friendly UI that makes the
+            process of ordering rides and payment seamless.
+          </p>
           githubLink="https://github.com/amaro52/chariot."
         />
       </div>
