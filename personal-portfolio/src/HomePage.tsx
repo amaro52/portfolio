@@ -41,17 +41,17 @@ const HomePage = () => {
           image={spotifyLogo}
           imageAlt="Spotify Logo Black"
           title="Spotify Custom Shuffle"
-          subtitle="Create subplaylists from your playlists"
+          subtitle="Create sub-playlists from your playlists"
           modalName="SpotifyModal"
           modalDescription=<p>
             <h2 className="font-bold ">About</h2>
             You probably have different playlists for different occastions,
             moods, etc. What if you could take it a step further, and create
             sub-playlists. You can filter one of your playlists by artist,
-            album, era, and more, and create a subplaylist with songs that match
-            those specifications. Instead of adding those songs to the queue
-            every single time, you instantly have a new playlist that you can
-            use.
+            album, era, and more, and create a sub-playlist with songs that
+            match those specifications. Instead of adding those songs to the
+            queue every single time, you instantly have a new playlist that you
+            can use.
             <br />A partner and I created a full-stack Spotify web application
             in which the user can create sub-playlists or shuffles from their
             existing playlists based on specific filters the user inputs based
