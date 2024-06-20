@@ -43,13 +43,24 @@ const HomePage = () => {
           title="Spotify Custom Shuffle"
           subtitle="Create subplaylists from your playlists"
           modalName="SpotifyModal"
-          modalDescription="A partner and I created a full-stack Spotify web application
-                    in which the user can create sub-playlists or shuffles from
-                    their existing playlists based on specific filters the user
-                    inputs based on their preferences. We engineered the
-                    back-end of accessing a user’s playlists and information
-                    using TypeScript, Node.js, and Spotify’s API, and
-                    streamlined a user-friendly front-end using HTML/CSS."
+          modalDescription=<p>
+            <h2 className="font-bold ">About</h2>
+            You probably have different playlists for different occastions,
+            moods, etc. What if you could take it a step further, and create
+            sub-playlists. You can filter one of your playlists by artist,
+            album, era, and more, and create a subplaylist with songs that match
+            those specifications. Instead of adding those songs to the queue
+            every single time, you instantly have a new playlist that you can
+            use.
+            <br />A partner and I created a full-stack Spotify web application
+            in which the user can create sub-playlists or shuffles from their
+            existing playlists based on specific filters the user inputs based
+            on their preferences.
+            <h2 className="font-bold pt-3">Tools</h2>
+            We engineered the back-end of accessing and manipulating a user’s
+            playlists and information using TypeScript, Node.js, and Spotify’s
+            API, and streamlined a user-friendly front-end using HTML/CSS.
+          </p>
           githubLink="https://github.com/amaro52/spotify-custom-shuffle"
         />
 
