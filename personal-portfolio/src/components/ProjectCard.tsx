@@ -8,7 +8,7 @@ interface Card {
   title: string;
   subtitle: string;
   modalName: string;
-  modalDescription: HTMLBodyElement;
+  modalDescription: any;
   githubLink: string;
 }
 

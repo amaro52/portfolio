@@ -5,31 +5,13 @@ import spotifyLogo from "./images/spotify-logo-black.png";
 import drumKit from "./images/drum-kit.jpeg";
 import simonGame from "./images/simon-game.jpeg";
 import ProjectCard from "./components/ProjectCard";
-import projectCards from "./ProjectCards";
-import PCard from "./components/PCard";
 
 const HomePage = () => {
-  const createCards = (card: any) => {
-    console.log(card.githubLink);
-    return (
-      <PCard
-        image={card.image}
-        imageAlt={card.imageAlt}
-        title={card.title}
-        subtitle={card.subtitle}
-        modalName={card.modalName}
-        modalDescription={card.modalDescription}
-        githubLink={card.githubLink}
-      />
-    );
-  };
-
   return (
     <div className="px-4 py-1 font-serif">
       {/* title */}
       <p className="text-4xl font-semibold pt-1 pb-5">My Projects</p>
 
-      {/* {projectCards.map(createCards)} */}
 
       {/* cards */}
       <div className="grid grid-cols-3 gap-4 py-4">
