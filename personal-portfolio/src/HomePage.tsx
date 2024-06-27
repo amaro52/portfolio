@@ -12,7 +12,6 @@ const HomePage = () => {
       {/* title */}
       <p className="text-4xl font-semibold pt-1 pb-5">My Projects</p>
 
-
       {/* cards */}
       <div className="grid grid-cols-3 gap-4 py-4">
         {/* SIMON GAME */}

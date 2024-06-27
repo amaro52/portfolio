@@ -44,7 +44,9 @@ const ProjectCard: React.FC<Card> = ({
           <dialog id={modalName} className="modal">
             <div className="modal-box text-neutral">
               <h3 className="font-bold text-2xl ">{title}</h3>
-              <p className="py-4 text-base text-primary-content">{modalDescription}</p>
+              <p className="py-4 text-base text-primary-content">
+                {modalDescription}
+              </p>
             </div>
             <form method="dialog" className="modal-backdrop">
               <button>close</button>
